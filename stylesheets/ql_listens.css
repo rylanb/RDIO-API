@@ -1,0 +1,39 @@
+
+#heavy_rotation {
+  width: 100%;
+}
+
+#heavy_rotation li{
+  border-bottom: 2px solid #000;
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 20px 0;
+  width: 150px;
+}
+
+#heavy_rotation li h3 {
+  border-bottom: 2px solid #000000;
+  font-size: 14px;
+  margin: 0 0 10px;
+  padding: 0 0 5px;
+  white-space: nowrap;
+}
+
+
+#heavy_rotation li a img {
+          box-shadow: 3px 3px 3px #999;
+     -moz-box-shadow: 3px 3px 3px #999;
+  -webkit-box-shadow: 3px 3px 3px #999;
+  position: relative;
+  width: 150px;
+}
+
+
+#heavy_rotation li a:hover img {
+          box-shadow: 1px 1px 1px #999;
+     -moz-box-shadow: 1px 1px 1px #999;
+  -webkit-box-shadow: 1px 1px 1px #999;
+
+  left: 1px;
+  top: 1px;
+}

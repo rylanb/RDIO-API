@@ -1,4 +1,4 @@
-{
+[{
   "baseIcon": "album/1/4/3/00000000000bd341/square-200.jpg",
   "releaseDate": "2011-05-23",
   "displayDate": "May 23, 2011",
@@ -21,8 +21,8 @@
   "length": 10,
   "canTether": true,
   "artistUrl": "/artist/Foster_The_People/"
-  },
-  {
+},
+{
   "baseIcon": "album/7/5/2/0000000000033257/square-200.jpg",
   "releaseDate": "2006-11-27",
   "displayDate": "Nov 27, 2006",
@@ -453,4 +453,4 @@
   "length": 16,
   "canTether": true,
   "artistUrl": "/artist/Gonzales/"
-}
+}]
