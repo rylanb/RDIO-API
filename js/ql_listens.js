@@ -1,5 +1,6 @@
+/* This is a work in progress. Refactors/Clean Up to come */
 $(function(){
-
+  /* Get the user(s) from RDIO for avatars */
   $.ajax({
     url: "http://qlrdio.herokuapp.com/user/collin?callback=?",
     dataType: "jsonp",
@@ -16,17 +17,17 @@ $(function(){
   });
 
   function getHeavyRotation(keyVal){
-
+    /* Get most played albums from RDIO */
     $.ajax({
-      // url: "/json/heavyRotation.json",
       url: "http://qlrdio.herokuapp.com/collin/getHeavyRotation",
       dataType: "jsonp",
       success: function(data){
         $('#loader').fadeOut(300);
+        /* Changes to JST */
         var items = [];
         $.each(data, function(index, album) {
           items.push('<li id="' + album.artist + '"><h3>' + album.artist +
-            '</h3><a href="http://rdio.com'+ album.url + '"><img src="' + album.icon + '" alt="' +
+            '</h3><a href="http://rdio.com'+ album.url + '" target="_blank"><img src="' + album.icon + '" alt="' +
             album.artist + '" /></a><h4>' + album.name + '</h4></li>');
         });
 
