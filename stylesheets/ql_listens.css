@@ -1,3 +1,23 @@
+#loader {
+  margin: 20px 0;
+  width: 20px;
+}
+
+.load_2 {
+  margin: 20px auto !important;
+}
+
+#music_wrap {
+  display: none;
+}
+
+#rdio_wrapper {
+  display: none;
+}
+
+#rdio_wrapper img {
+
+}
 
 #heavy_rotation {
   width: 100%;
@@ -6,17 +26,28 @@
 #heavy_rotation li{
   border-bottom: 2px solid #000;
   float: left;
+  height: 220px;
   margin: 0 20px 20px 0;
-  padding: 20px 0;
-  width: 150px;
+  overflow: hidden;
+  padding: 20px 0 10px;
+  width: 170px;
 }
 
-#heavy_rotation li h3 {
+#heavy_rotation li h3, #heavy_rotation li h4 {
   border-bottom: 2px solid #000000;
   font-size: 14px;
   margin: 0 0 10px;
   padding: 0 0 5px;
   white-space: nowrap;
+}
+
+#heavy_rotation li h4 {
+  border-bottom: none;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 4px;
+  white-space: normal;
+  width: 130px;
 }
 
 
